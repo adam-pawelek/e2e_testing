@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cross-env NODE_ENV=test cypress open --config-file cypress.config.ts",
-    "cypress:run": "cypress run"
+    "cypress:run": "cross-env NODE_ENV=test  cypress run --config-file cypress.config.ts"
   },
   "author": "Adam Pawelek",
   "license": "ISC",
